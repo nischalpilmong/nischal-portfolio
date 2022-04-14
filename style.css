@@ -79,9 +79,6 @@ body{
 }
 
 /***** HOME SECTION *********/
-.hero__wrap{
-    position: relative;
-}
 
 .hero__background{
     height: 100vh;
@@ -89,4 +86,46 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.hero__content{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;   
+}
+
+.hero__text h1{
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.hero__text span{
+    display: inline-block;
+    margin-left: 3px;
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    color: aqua;
+}
+
+.hero__text .hero__btn{
+    display: block;
+    width: 60%;
+    margin: 40px auto;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background-color: rgb(243, 217, 44);
+}
+
+.hero__text .hero__btn:hover{
+    color: rgb(33, 37, 41);
 }

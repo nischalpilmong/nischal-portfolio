@@ -7,7 +7,8 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="./script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    
 </head>
 <body>
     <header id="header">
@@ -43,8 +44,24 @@
     <section class="home">
         <div class="hero__wrap">
              <div class="hero__background"></div>
-             <div class="hero__content"></div>
+             <div class="hero__content">
+                     <div class="hero__text">
+                         <h1>Hi,I'm a web developer</h1>
+                         <span class="typed__string"></span>
+                         <a class="hero__btn" href="#">View My Works</a>
+                     </div>
+             </div>
         </div>
     </section>
+    <script src="./script.js"></script>
+    <script>
+        var typed = new Typed('.typed__string',{
+            strings : ['Developer','Designer'],
+            typeSpeed : 70,
+            backSpeed: 90,
+            delaySpeed : 100,
+            loop : true
+        });
+    </script>
 </body>
 </html>
