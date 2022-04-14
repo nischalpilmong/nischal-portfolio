@@ -10,16 +10,24 @@
 }
 
 /**** HEADER SECTION ***********/
-
 .navbar{
+    position: fixed;
+    width: 100%;
     display: flex;
+    z-index: 5;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding: 0 12px;
 }
 
+.navbar.sticky{
+    padding: 10px auto;
+    width: 100%;
+    background: #1b1b1b;
+}
+
 .navbar .logo{
-    
+    text-decoration: none;
 }
 .hamburger__btn .bars{
     display: block;
@@ -43,4 +51,17 @@
 
 .header__nav{
     display: none;
+}
+
+/***** HOME SECTION *********/
+.hero__wrap{
+    position: relative;
+}
+
+.hero__background{
+    height: 100vh;
+    background-image: url('./img/hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
