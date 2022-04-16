@@ -32,6 +32,8 @@ body{
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 600;
+    margin-left: 7px;
+    margin-top: 10px;
 }
 
 .navbar .logo span{
@@ -39,9 +41,10 @@ body{
 }
 .navbar .international-call-number {
   color: #fff;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 600;
   margin-right: 20px;
+  margin-top: 10px;
 }
 
 .navbar .phone-icon{
@@ -51,13 +54,14 @@ body{
 
 .hamburger__btn{
     margin-right: 20px;
+    margin-top: 10px;
 }
 
 .hamburger__btn .bars{
     display: block;
-    width: 25px;
+    width: 23px;
     height: 3px;
-    margin: 5px auto;
+    margin: 4px auto;
     background-color: #fff;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
@@ -119,12 +123,13 @@ body{
     text-transform: uppercase;
     font-size: 25px;
     font-weight: 400;
+    text-align: center;
 }
 
 .hero__text span{
     display: inline-block;
     margin-left: 3px;
-    font-size: 45px;
+    font-size: 80px;
     text-transform: uppercase;
     text-align: center;
     font-weight: 600;
@@ -134,7 +139,6 @@ body{
 .hero__text .hero__btn{
     display: block;
     width: 60%;
-    margin: 40px auto;
     text-decoration: none;
     text-align: center;
     padding: 15px 24px;
@@ -151,18 +155,28 @@ body{
 @media(min-width: 576px) and (max-width: 767px){
    .navbar .logo{
       margin-left: 40px;
+      font-size: 30px;
+   }
+   .navbar .international-call-number{
+    font-size: 18px;
    }
 
    .navbar .hamburger__btn{
-       margin-right: 70px;
+       margin-right: 60px;
+   }
+
+   .hamburger__btn .bars{
+       width: 28px;
+       margin: 6px auto;
    }
 }
  
 
 @media(min-width: 768px) and (max-width: 991px){
-   .navbar .logo{
-        margin-left: 30px;
-        font-size: 40px;      
+    .navbar .logo{
+       flex: 0; 
+       font-size: 35px;
+       margin-left: 15px;      
    }
    .navbar .international-call-number{
        display: none;
@@ -170,15 +184,35 @@ body{
    .navbar .hamburger__btn{
        display: none;
    }
-
+   
+   .navbar .phone-icon {
+       font-size: 20px;
+   }
    .header__nav{
-       
+        display: flex;
+        justify-content: flex-end;
+        flex: 1;
    }
 
-   .navbar_nav{
+   .navbar__nav{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-top: 10px;
+   }
+   .navbar__nav li{
+       list-style: none;
+       margin-right: 20px;
+   }
+   .navbar__nav li a{
+       color: #fff;
+       text-decoration: none;
+       text-transform: uppercase;
+       font-size: 18px;
+   }
+   .hero__content{
       
    }
-
 }
 
 @media(max-width: 1024px){
