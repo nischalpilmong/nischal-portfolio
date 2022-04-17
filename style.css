@@ -74,7 +74,7 @@ body{
     transform: translateY(8px) rotate(45deg);
 }
 .hamburger__btn.active .bars:nth-child(3){
-    transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-6px) rotate(-45deg);
 }
 
 .hamburger__btn.active{
@@ -164,11 +164,6 @@ body{
 
    .navbar .hamburger__btn{
        margin-right: 60px;
-   }
-
-   .hamburger__btn .bars{
-       width: 28px;
-       margin: 6px auto;
    }
 }
  
