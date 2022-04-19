@@ -182,6 +182,113 @@ body{
     color: rgb(33, 37, 41);
 }
 
+/****ABOUT SECTION****/
+.about{
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+
+.about .heading__1{
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.about .heading__1 span{
+    background-color: rgb(243, 217, 44);
+    padding: 0 8px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.about .heading__2{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.about__intro h2{
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.about__intro span{
+    font-weight: 700;
+    border-bottom: 1px solid rgb(243, 217, 44);
+}
+
+.about__intro p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.about__experience{
+   text-align: center;
+   margin-top: 40px;
+}
+
+.about__experience .year{
+    background-color: rgb(243, 217, 44);
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.about__experience span{
+    position: absolute;
+    font-size: 32px;
+    font-weight: 500;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about__experience h3{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.about__experience h3 span{
+    font-weight: 700;
+}
+
+.about__contact{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 7px;
+}
+ .about__name,
+ .about__email,
+ .about__dob,
+ .about__address{
+     margin-bottom: 10px;
+ }
+
+
+.about__name p:first-child,
+.about__email p:first-child,
+.about__dob p:first-child,
+.about__address p:first-child{
+    color: rgb(108, 117, 125);
+    font-size: 16px;
+}
+
+.about__name p:nth-child(2),
+.about__email p:nth-child(2),
+.about__dob p:nth-child(2),
+.about__address p:nth-child(2){
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
 @media(min-width: 576px) and (max-width: 767px){
    .navbar .logo{
       margin-left: 40px;
