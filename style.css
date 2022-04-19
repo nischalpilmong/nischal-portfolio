@@ -301,6 +301,12 @@ body{
    .navbar .hamburger__btn{
        margin-right: 60px;
    }
+   .about__contact{
+       padding: 0 45px;
+       grid-row-gap: 20px;
+   }
+   
+
 }
  
 
@@ -330,35 +336,34 @@ body{
        display: flex;
        justify-content: center;
        align-items: center;
-       margin-top: 10px;
+       margin-top: 20px;
    }
    .navbar__nav li{
        list-style: none;
-       margin-right: 20px;
+       margin-right: 25px;
+   }
+
+   .navbar__nav li:last-child{
+       margin-top: 10px;
    }
    .navbar__nav li a{
        color: #fff;
        text-decoration: none;
        text-transform: uppercase;
-       font-size: 18px;
+       font-size: 16px;
    }
-   .hero__content{
-      
+   .social__icons{
+       display: none;
    }
+
+   .about__contact{
+    padding: 0 60px;
+    grid-row-gap: 20px;
+    }
 }
 
-@media(max-width: 1024px){
-    .navbar .logo{
-       
-     }
- 
-     .navbar .hamburger__btn{
-     }
- 
-     .navbar .international-call-number{
-    
-     }
-     .navbar .logo{
- 
-     }
+@media(min-width: 992px) and (max-width: 1199px){
+    .about__contact{
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
