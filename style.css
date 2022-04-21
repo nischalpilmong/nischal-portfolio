@@ -187,20 +187,19 @@ body{
     padding-top: 56px;
     padding-bottom: 56px;
 }
-
-.about .heading__1{
+.heading__1{
     text-align: center;
     margin-bottom: 8px;
 }
 
-.about .heading__1 span{
+.heading__1 span{
     background-color: rgb(243, 217, 44);
     padding: 0 8px;
     font-size: 16px;
     font-weight: 400;
 }
 
-.about .heading__2{
+.heading__2{
     font-size: 35px;
     font-weight: 600;
     text-align: center;
