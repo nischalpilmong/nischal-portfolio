@@ -363,7 +363,62 @@ body{
 }
 
 @media(min-width: 992px) and (max-width: 1199px){
+    
+  .about__intro__experience{
+    display: flex;
+    margin-bottom: 40px;
+   }
+
+   .about__intro{
+       flex: 1;
+       padding: 0 30px;
+   }
+   .about__intro h2{
+       text-align: left;
+       font-size: 32px;
+   }
+   .about__intro p{
+       text-align: left;
+       font-size: 21px;
+       line-height: 40px;
+   }
+   .about__experience{
+       flex: 1;
+   }
+
     .about__contact{
         grid-template-columns: repeat(4, 1fr);
+        padding: 0 30px;
+    }
+
+    .about__name p:first-child,
+    .about__email p:first-child,
+    .about__dob p:first-child,
+    .about__address p:first-child{
+        font-size: 18px;
+     }
+    .about__contact .about__email{
+        padding-right: 20px;
+    }
+
+    .about__contact .about__email p:nth-child(2){
+        text-decoration: underline;
+    }
+    .about__contact .about__dob{
+        padding-left: 30px;
+    }
+    .about__experience .year{
+        height: 120px;
+        width: 120px;
+        margin-bottom: 16px;
+    }
+    
+    .about__experience span{
+        font-size: 108px;
+        color: rgb(76, 77, 77);
+    }
+    
+    .about__experience h3{
+        font-size: 28px;
     }
 }
