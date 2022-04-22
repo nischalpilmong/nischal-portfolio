@@ -374,6 +374,40 @@ hr{
 }
 
 
+/****HERO BACKGROUND 2******/
+.hero__wrap2{
+    position: relative;
+}
+.hero__background2{
+    height: 70vh;
+    background-image: linear-gradient(rgba(33, 37, 41, .7), rgba(33, 37, 41, .8)),url('./img/intro-bg-2.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero__content2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero__content2 .hero__text2 h2{
+    color: #fff;
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
 @media(min-width: 576px) and (max-width: 767px){
    .navbar .logo{
       margin-left: 40px;
