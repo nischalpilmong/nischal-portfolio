@@ -330,50 +330,32 @@ hr{
     padding-left: 24px;
 }
 
-.skills__percentage{
-    float: right;
-    margin-right: 20px;
+.skill__item{
+     margin-bottom: 20px;
 }
-
 .progress__bar{
-    width: 280px;
-    margin: 10px 0;
+    background: #e3e3e3;
+    height: 8px;
+    border-radius: 2px;
+    width: 90%;
+    position: relative;
+    margin-top: 10px;
 }
 
 .progress__bar .progress__line{
-    position: relative;
-    height: 8px;
-    width: 100%;
-    background-color: rgb(233, 236, 239);
-    border-radius: 4px;
-}
-
-.progress__bar .progress__line span{
     position: absolute;
+    top: 0;
+    left: 0;
     height: 100%;
-    background-color: rgb(243, 217, 44);
-    border-radius: 10px;
+    border-radius: 2px;
+    background: rgb(243, 217, 44);
 }
 
-.progress__bar .progress__line.web__design span{
-    width: 75%;
-}
-.progress__bar .progress__line.html__css span{
-    width: 95%;
-}
-.progress__bar .progress__line.javascript span{
-    width: 70%;
-}
-
-
-.progress__bar .progress__line.reactjs span{
-    width: 65%;
-}
-.progress__bar .progress__line.jquery span{
-    width: 90%;
-}
-.progress__bar .progress__line.bootstrap span{
-    width: 99%;
+.skill-percentage{
+    line-height: 40px;
+    position: absolute;
+    right: 0;
+    top: -40px;
 }
 
 
