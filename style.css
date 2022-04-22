@@ -445,6 +445,18 @@ hr{
     padding: 0 60px;
     grid-row-gap: 20px;
     }
+
+    .resume__myskills__row{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 40px;
+    }
+
+    .core__skills,
+    .library__skills{
+        flex: 1;
+    }
 }
 
 @media(min-width: 992px) and (max-width: 1199px){
@@ -505,5 +517,17 @@ hr{
     
     .about__experience h3{
         font-size: 28px;
+    }
+
+    .resume__myskills__row{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 40px;
+    }
+
+    .core__skills,
+    .library__skills{
+        flex: 1;
     }
 }
